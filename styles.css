@@ -30,24 +30,17 @@
   padding: 30px;
 }
 
-a:link {
+a:link,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
   color: black;
 }
 
-a:visited {
-  text-decoration: none;
-  color: rgb(134, 134, 223);
-}
-
-a:hover {
-  color: blue;
-  text-decoration: underline;
-}
-
-a:active {
-  color: blue;
-  text-decoration: none;
+a.current
+ {
+  color: orange;
 }
 
 .main-gallery {
