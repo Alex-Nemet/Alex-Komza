@@ -37,12 +37,12 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color: rgb(134, 134, 223);
 }
 
 a:hover {
-  color: rgb(134, 134, 223);
-  text-decoration: none;
+  color: blue;
+  text-decoration: underline;
 }
 
 a:active {
@@ -72,6 +72,11 @@ img {
   object-fit: contain;
 }
 
-img:hover {
+img.opaque:hover {
   opacity: .5;
+}
+
+.project-gallery {
+  margin-left: 300px;
+  padding: 30px;
 }
